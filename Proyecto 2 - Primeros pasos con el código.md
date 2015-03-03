@@ -6,7 +6,7 @@ Los pines digitales de Arduino sólo pueden leer **dos estados**:
   * Cuando no la hay.  
 
 Este tipo de entrada es normalmente conocida como digital (o binaria, por tener dos estados). A estos dos estados se les refiere como `Alto` o `Bajo` *(`HIGH` y `LOW` en inglés)*. `HIGH` es lo mismo que decir hay tensión, y `LOW` lo mismo que no hay tensión.  
-Cuando le indicamos a un pin de salida un nivel `HIGH` utilizando el comando `digitalWrite()`, lo estamos activando, pero cuando le indicamos un nivel `LOW`, lo estamos desactivando.  
+Cuando le indicamos a un pin de salida un nivel `HIGH` utilizando el comando **`digitalWrite()`**, lo estamos activando, pero cuando le indicamos un nivel `LOW`, lo estamos desactivando.  
 Los pines digitales de Arduino pueden actuar tanto como **entradas** como **salidas**. En nuestro código, podemos configurarlos para que funcionen dependiendo de la acción que deseemos que hagan. Cuando dichos pins funcionan como salidas, podemos activar componentes tales como LEDs. Si los configuramos como entradas, podemos comprobar por ejemplo, si un pulsador ha sido activado o no.  
 Los pines `0` y `1` se utilizan para la comunicación con el ordenador, por ello, es mejor utilizar los pines a partir del número `2`.  
 ### Montar el circuito:  
@@ -23,9 +23,9 @@ Tras seguir los pasos anteriores, debería de quedarnos un circuito como el de l
 Su esquema eléctrico correspondiente sería:  
 <p align="center"><img src="http://elgatoinquieto.files.wordpress.com/2014/01/esquema-electrico.jpg" alt="Esquema"/></p>  
 ### El código:  
-Todo programa de Arduino posee **dos funciones** principales. Las funciones son partes de un programa informático que ejecutan comandos específicos. Dichas funciones tienen nombres **únicos**, y son utilizadas cuando se las necesita. Las obligatorias son las llamadas `setup()` y `loop()`.  
+Todo programa de Arduino posee **dos funciones** principales. Las funciones son partes de un programa informático que ejecutan comandos específicos. Dichas funciones tienen nombres **únicos**, y son utilizadas cuando se las necesita. Las obligatorias son las llamadas **`setup()`** y **`loop()`**.  
 Estas funciones necesitan ser **declaradas**, lo que significa que hay que decirle a Arduino la acción que van a llevar a cabo dichas funciones.  
-Éstas, `setup()` y `loop()`, se declaran de la siguiente manera:  
+Éstas, **`setup()`** y **`loop()`**, se declaran de la siguiente manera:  
 
     void setup(){
     
@@ -37,11 +37,11 @@ Estas funciones necesitan ser **declaradas**, lo que significa que hay que decir
 
 En este programa, vamos a crear una variable antes de adentrarnos en la parte principal del programa. Las variables son nombres que se colocan en la memoria de Arduino y de las que podemos saber el valor de su contenido. Dicho contenido puede cambiar dependiendo de las instrucciones que le demos al programa.  
 Los nombres de variables suelen describir que tipo de valor están guardando. Por ejemplo, una variable cuyo nombre sea `switchState`, nos estará diciendo que almacena el estado de un pulsador. Por otro lado, una variable cuyo nombre sea `x`, no nos estará diciendo mucho acerca de que valor está guardando.  
-Para crear una variable necesitamos declarar de qué **tipo** es. El tipo de dato `int` se refiere a un número entero (también llamado `integral` o `integrer`). Éste es cualquier número sin coma decimal. Cuando declaramos una variable, normalmente debemos indicarle un valor inicial, a esto se le llama **inicializar** una variable. La declaración de dicha variable debe acabar siempre con un punto y coma `;`.  
+Para crear una variable necesitamos declarar de qué **tipo** es. El tipo de dato **`int`** se refiere a un número entero (también llamado `integral` o `integrer`). Éste es cualquier número sin coma decimal. Cuando declaramos una variable, normalmente debemos indicarle un valor inicial, a esto se le llama **inicializar** una variable. La declaración de dicha variable debe acabar siempre con un punto y coma `;`.  
 
     int switchState=0;
 
-La función `setup()` solo se ejecuta una vez, cuando Arduino se pone en funcionamiento. Este es el punto donde configuraremos los pines digitales para que sean `INPUT` o `OUTPUT`, utilizando una función llamada **`pinMode()`**. Los pines conectados a los LEDs serán de salida y el pin del pulsador será de entrada:
+La función **`setup()`** solo se ejecuta una vez, cuando Arduino se pone en funcionamiento. Este es el punto donde configuraremos los pines digitales para que sean `INPUT` o `OUTPUT`, utilizando una función llamada **`pinMode()`**. Los pines conectados a los LEDs serán de salida y el pin del pulsador será de entrada:
 
     void setup(){
       pinMode(3, OUTPUT);
