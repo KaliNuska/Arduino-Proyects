@@ -19,9 +19,9 @@ Pasemos ahora al montaje del circuito. Para ello seguiremos los pasos siguientes
   6.  Colocamos un pulsador en la protoboard, tal y como se muestra en la figura de más abajo. Conectamos un lado del pulsador a la alimentación y el otro lado al pin 2 del Arduino. Necesitaremos añadir una resistencia de 10kΩ entre la tierra y la conexión del pulsador con el pin del Arduino.  
   
 Tras seguir los pasos anteriores, debería de quedarnos un circuito como el de la figura siguiente:  
-<p align="center"><img src="https://elgatoinquieto.files.wordpress.com/2014/01/protoboard.jpg" alt="Protoboard"/></p>  
+![](https://elgatoinquieto.files.wordpress.com/2014/01/protoboard.jpg "Protoboard")  
 Su esquema eléctrico correspondiente sería:  
-<p align="center"><img src="http://elgatoinquieto.files.wordpress.com/2014/01/esquema-electrico.jpg" alt="Esquema"/></p>  
+![](http://elgatoinquieto.files.wordpress.com/2014/01/esquema-electrico.jpg "Esquema")  
 ### El código:  
 Todo programa de Arduino posee **dos funciones** principales. Las funciones son partes de un programa informático que ejecutan comandos específicos. Dichas funciones tienen nombres **únicos**, y son utilizadas cuando se las necesita. Las obligatorias son las llamadas **`setup()`** y **`loop()`**.  
 Estas funciones necesitan ser **declaradas**, lo que significa que hay que decirle a Arduino la acción que van a llevar a cabo dichas funciones.  
