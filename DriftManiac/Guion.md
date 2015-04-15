@@ -16,7 +16,7 @@
   * Transmitir la variable de velocidad a un display con un servomotor.  
   * Hacer el display.  
 
-#### Indicador de viraje mediante un servomotor:  
+#### Indicador del viraje mediante un servomotor:  
   * Sumatorio del desplazamiento producido por el derrape en una variable.  
   * Transmisión de esa variable al display con un servomotor.  
   * Crear el display.  
