@@ -1,6 +1,6 @@
 ## PROYECTO S4A: "DRIFT MANIAC"
 ### Objetivos:  
-  * [**Control de la dirección mediante un volante**](#control-de-la-dirección-mediante-un-servomotor)  
+  * [**Control de la dirección mediante un volante**](#control-de-la-dirección-mediante-un-volante)  
   * [**Indicador de velocidad mediante un servomotor**](#indicador-de-la-velocidad-mediante-un-servomotor)  
   * [**Indicador de viraje**](#indicador-del-viraje-mediante-un-servomotor)  
   * [**Tragafichas para el inicio de los niveles**](#tragafichas-para-el-inicio-de-los-niveles)  
