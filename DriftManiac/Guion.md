@@ -12,20 +12,20 @@
   * Aplicar efecto de derrape constantemente.  
   * Construir un volante y engancharlo a un potenciómetro fijo.  
 
-#### Indicador de la velocidad mediante un servomotor.  
+#### Indicador de la velocidad mediante un servomotor:  
   * Transmitir la variable de velocidad a un display con un servomotor.  
   * Hacer el display.  
 
-#### Indicador de viraje mediante un servomotor.  
+#### Indicador de viraje mediante un servomotor:  
   * Sumatorio del desplazamiento producido por el derrape en una variable.  
   * Transmisión de esa variable al display con un servomotor.  
   * Crear el display.  
 
-#### Tragafichas para el inicio de los niveles.  
+#### Tragafichas para el inicio de los niveles:  
   * Construir una entrada con un final de carrera.  
   * Conectarlo con la placa.  
 
-#### Semáforo.  
+#### Semáforo:  
   * Montar 3 leds en la caja.  
   * Hacer el efecto de luces en cada inicio de nivel.  
 	
