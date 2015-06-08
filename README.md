@@ -1,6 +1,6 @@
 # Arduino Projects:
 Here you have some basic Arduino programs usefull for learning this language:  
-  * [**S4A** - Drift Maniac](./DriftManiac)  
+  * [**S4A** - Drift Maniac](https://github.com/KaliNuska/ArduinoProjects/releases/tag/v1.0-release)  
     - [x] Conversión a S4A.  
     - [x] Adición de componentes electrónicos de control:  
     ![](http://i.imgur.com/zEfvNXo.png)  
